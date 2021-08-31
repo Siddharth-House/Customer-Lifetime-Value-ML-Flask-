@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CLV</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+ <script>
+   function multiplyBy()
+{
+        num1 = document.getElementById("no1").value;
+        num2 = document.getElementById("no2").value;
+        num3 = document.getElementById("no3").value;
+        num4 = document.getElementById("no4").value;
+        document.getElementById("result").innerHTML = num1 * num2 * num3 * num4;
+}
+ </script>
+
+</head>
+
+
+<body id="page-top">
+
+  <!--/ Nav StarT /-->
+ 
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="#page-top">CLV</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="#predict">Predict</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#countries">Data</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+
+  <!--/ Home Page /-->
+  <div id="home" class="intro route bg-image" style="background-image: url(img/intro_bg.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h1 class="intro-title mb-4">CUSTOMER LIFETIME VALUE</h1>
+          <p class="intro-subtitle">add any quote if you wish</span></p>
+          <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#predict" role="button" style="background-color: transparent; border: 1px solid rgb(255, 140, 45);">Learn More</a></p> 
+      </div>
+    </div>
+    </div>
+  </div>
+  <!--/ Intro Skew End /-->
+
+
+
+ <!--/ Section predict Start /-->
+ <section id="predict" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/work-5.jpg)">
+  <div class="overlay-mf"></div>
+  <div class="container" >
+    <div class="row" >
+      <div class="col-sm-8" style="margin: 0px auto" >
+        <div class="title-box text-center">
+          <h3 class="title-a">
+           PREDICT
+          </h3>
+          <p class="subtitle-a" style="color: #292727; margin-top: 0%;">
+          Customer Lifetime Value
+          </p>
+          <div class="line-mf"></div>
+        </div>
+        <div class="contact-mf" style="margin-top: 0%;">
+          <div class="box-shadow-full" >
+            <div class="row" >
+               <div class="title-box-2 pt-4 pt-md-0" >
+                  <h5 class="title-left" style="text-align:center;">
+                    Customer Lifetime Value
+                  </h5>
+                </div>
+                
+                   
+                  <div class="row">
+                    <div class="col-md-8 mb-2" style="margin: auto;">
+                      <div class="form-group">
+                        <input type="text" name="frequency" class="form-control" id="no1" placeholder="Average Sale Value" required/>
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-8 mb-2" style="margin: auto;">
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="monetary" id="no2" placeholder="# of Annual Transactions / Customer" required/>
+                        
+                      </div>
+                    </div>
+                    <div class="col-md-8 mb-2" style="margin: auto;">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="recency" id="no3" placeholder="Retention Period" required />
+                          <div class="validation"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 mb-2" style="margin: auto;">
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="recency" id="no4" placeholder="Profit Margin" required />
+                        <div class="validation"></div>
+                      </div>
+                  </div>
+                   
+                    <div class="col-md-12" style="padding-left: 40%;">
+                      <button type="button" id="result"  onClick="multiplyBy()" class="button button-a button-big button-rouded" >CLTV</button>
+                    </div>
+                  </div>
+                </form>
+          </div>
+      </div>
+      </div>
+      </div>
+</section>
+<!--/ Section predict End /-->
+
+   
+
+<!--/ Section Countries Start /-->
+<section id="countries" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background:rgba(0,0 ,0,0.2) ;"> 
+  <div class="fullscreen-bg">
+    <video loop muted autoplay class="fullscreen-bg__video">
+        
+        <source src="video/vid-bg.mp4" type="video/mp4">
+        
+    </video>
+</div>
+ <div class="container" >
+   <div class="row" >
+       <div class="col-sm-8" style="margin:auto" >
+        <div class="title-box text-center">
+          <h3 class="title-a" style="color: seashell;">
+          INSERT YOUR DATA
+          </h3>
+          
+          <div class="line-mf"></div>
+         
+
+
+          <form class="" action="data" method="post" style="margin-top: 80px;">
+            <input type="file" name="csvfile" value="">
+            <input type="submit" name="" value="Submit">
+          </form>
+       
+         
+    
+        </div>
+       </div>
+   </div>   
+</section>
+<!--/ Section countries End /-->
+
+<!--Section about start-->
+  <section id="about" class="about-mf sect-pt4 route" style="background-color: #ffffff; padding-top: 35px;">    
+     <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+               </div>
+                </div>          
+             <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="title-left" style="text-align: center;">
+                      ABOUT
+                    </h5>
+                  </div>
+                  <p class="lead">
+                    Companies need to identify those top customers and maintain the relationship with them to ensure continuous revenue. In order to maintain a long-term relationship with customers, companies need to schedule loyalty schemes such as the discount, offers, coupons, bonus point, and gifts.
+
+                  </p>
+                 
+                  <p class="lead">
+                    Recency (R): Who have purchased recently? 
+                      Frequency (F): Who has purchased frequently? 
+                            Monetary Value(M):Who have high purchase amount?
+                                  Steps of RFM(Recency, Frequency, Monetary):
+	                                      Calculate the Recency, Frequency, Monetary values for each customer.
+	                          allocate segment bin values to RFM table using quartile.
+	                          Sort the customer RFM score in ascending order.
+
+                  </p>
+                </div>
+                <div class="row" style="padding-top: 50px;">
+                <div class="col-md-4">
+                    <div class="card card-blog">
+                      <div class="card-img">
+                        <img src="img/clv_2.png" alt="" class="img-fluid">
+                      </div>
+                      <div class="card-body">
+                        <div class="card-category-box">
+                          <div class="card-category">
+                            <h6 class="category">Yash</h6>
+                          </div>
+                        </div>
+                        <h3 class="card-title">Model-Development</h3>
+                        <p class="card-description">
+                          Describe what you did in a para or so!!
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <div class="post-author">
+                         
+                             <span class="author">Yash Sonawne</span>
+                         
+                        </div>
+                        <div class="post-date">
+                         36105
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+                  <div class="col-md-4">
+                    <div class="card card-blog">
+                      <div class="card-img">
+                        <img src="img/clv_3.jpg" alt="" class="img-fluid">
+                      </div>
+                      <div class="card-body">
+                        <div class="card-category-box">
+                          <div class="card-category">
+                            <h6 class="category">Siddharth</h6>
+                          </div>
+                        </div>
+                        <h3 class="card-title">Back-End </h3>
+                        <p class="card-description">
+                          add whatever stuff you feel putting in is correct.
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <div class="post-author">
+                         
+                             <span class="author">Siddharth Sharma</span>
+                         
+                        </div>
+                        <div class="post-date">
+                         36106
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-md-4">
+                    <div class="card card-blog">
+                      <div class="card-img">
+                        <img src="img/omkar.jpeg" alt="" class="img-fluid">
+                      </div>
+                      <div class="card-body">
+                        <div class="card-category-box">
+                          <div class="card-category">
+                            <h6 class="category">Omkar</h6>
+                          </div>
+                        </div>
+                        <h3 class="card-title">Web App Development</h3>
+                        <p class="card-description">
+                          Fill in stuff here.
+                        </p>
+                      </div>
+                      <div class="card-footer">
+                        <div class="post-author">
+                         
+                            <span class="author">Omkar Deshmukh</span>
+                         
+                        </div>
+
+                        <div class="post-date">
+                           36143
+                        </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--Section about End-->
+ 
+
+ 
+
+
+  
+
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/clv_4.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Contact Us
+                    </h5>
+                  </div>
+                  <div>
+                      <form action="" method="post" role="form" class="contactForm">
+                      <div id="sendmessage">Your message has been sent. Thank you!</div>
+                      <div id="errormessage"></div>
+                      <div class="row">
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                              <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                      Get in Touch
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead">
+                      Add some stuff here if you want Omkar , There is a open paragraph tag
+                    </p>
+                    <ul class="list-ico">
+                      <li><span class="ion-ios-location"></span> Aurangabad,Maharashtra</li>
+                      <li><span class="ion-ios-telephone"></span> 9373350205</li>
+                      <li><span class="ion-email"></span> iomkar@gmail.com</li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    <ul>
+                      <li><a href=""><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
+                      <li><a href=""><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                      <li><a href=""><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
+                      <li><a href=""><span class="ico-circle"><i class="ion-social-whatsapp"></i></span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  <!--/ Section Contact-footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
